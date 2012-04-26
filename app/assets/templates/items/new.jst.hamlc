@@ -1,0 +1,28 @@
+%td
+	%form#new_item
+		%input.description#item_name{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_pax{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_units{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_unit_cost{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_tax_one{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_tax_two{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_gratuity_rate{:type => 'text'}
+%td
+	%form#new_item
+		%input.number#item_markup_amount{:type => 'text'}
+
+%td
+	%form#new_item
+		%input.btn{:type => 'submit'}

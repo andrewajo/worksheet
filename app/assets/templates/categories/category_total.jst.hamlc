@@ -1,0 +1,9 @@
+%td.description Total
+%td.number= @category.get('pax_total')
+%td.number Units
+%td.number Unit Cost
+%td.number Tax One
+%td.number Tax Two
+%td.number Gratuity
+%td.number Markup
+%td.actions  

@@ -1,0 +1,46 @@
+%td.description
+	.value= @item.get('name')
+	.edit
+		%form#edit_item
+			%input.description#edit_item_name{:value => @item.get('name')}
+%td.number
+	.value= @item.get('pax')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_pax{:value => @item.get('pax')}
+%td.number
+	.value= @item.get('units')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_units{:value => @item.get('units')}
+%td.number
+	.value= @item.get('unit_cost')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_cost{:value => @item.get('unit_cost')}
+%td.number
+	.value= @item.get('tax_one')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_tax_one{:value => @item.get('tax_one')}
+%td.number
+	.value= @item.get('tax_two')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_tax_two{:value => @item.get('tax_two')}
+%td.number
+	.value= @item.get('gratuity_rate')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_gratuity_rate{:value => @item.get('gratuity_rate')}
+%td.number
+	.value= @item.get('mark_up_amount')
+	.edit
+		%form#edit_item
+			%input.number#edit_item_markup_amount{:value => @item.get('mark_up_amount')}
+%td.actions
+	.value
+		%i.pull-right.icon-remove
+	.edit
+		%form#edit_item
+			%input.btn{:type => 'submit', :value => 'Save'}

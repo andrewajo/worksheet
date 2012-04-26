@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  pax: MyString
+  units: MyString
+  unit_cost: MyString
+  tax_one: MyString
+  tax_two: MyString
+  gratuity_rate: MyString
+  mark_up_amount: MyString
+
+two:
+  name: MyString
+  pax: MyString
+  units: MyString
+  unit_cost: MyString
+  tax_one: MyString
+  tax_two: MyString
+  gratuity_rate: MyString
+  mark_up_amount: MyString

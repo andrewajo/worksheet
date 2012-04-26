@@ -1,0 +1,22 @@
+.navbar
+	.navbar-inner
+		.container
+			%h4
+				= @category.get('name')
+				.actions
+					%i.icon-plus.icon-white
+					%i.icon-remove.category.icon-white
+
+%table.table
+	%thead
+		%tr
+			%th.description Item
+			%th.number Pax
+			%th.number Units
+			%th.number Unit Cost
+			%th.number Tax One
+			%th.number Tax Two
+			%th.number Gratuity
+			%th.number Markup
+			%th.actions  
+	%tbody#items.items

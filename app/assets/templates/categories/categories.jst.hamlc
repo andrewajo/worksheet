@@ -1,0 +1,9 @@
+.container	
+	%form#new_category
+		%input#new_category_name{:type => 'text'}
+		%input.number#new_category_tax_one{:type => 'text'}
+		%input.number#new_category_tax_two{:type => 'text'}
+		%input.number#new_category_gratuity{:type => 'text'}
+		%input{:type => 'submit', :value => 'Save', :class => 'btn'}
+	.row-fluid
+		#categories.span12
